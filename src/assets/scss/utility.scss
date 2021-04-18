@@ -1,3 +1,5 @@
+@import "./settings/colours";
+
 // Utility classes not tied to a component
 
 .u-list--bare {
@@ -12,4 +14,22 @@
 
 .u-scroll-y {
   overflow-y: scroll;
+}
+
+.u-small-scrollbar {
+  &::-webkit-scrollbar {
+    width: 2px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $colour-text-secondary;
+    border-radius: 1px;
+  }
+
+  /* Buttons */
+  &::-webkit-scrollbar-button:single-button {
+    height: 0;
+    width: 0;
+  }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="l-column u-scroll-x" v-if="!failedToGetNews && news.length > 0">
+  <div class="l-column u-scroll-y" v-if="!failedToGetNews && news.length > 0">
     <ul class="c-news u-list--bare">
       <li v-for="newsItem in news" :key="newsItem.key" class="c-news__item">
         <ExternalLink

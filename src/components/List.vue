@@ -3,7 +3,7 @@
     <div class="c-list__title">
       <slot></slot>
     </div>
-    <ul class="c-list__content u-list--bare">
+    <ul class="c-list__content u-list--bare u-small-scrollbar">
       <li v-for="element in items" :key="element.key">{{ element }}</li>
     </ul>
   </div>

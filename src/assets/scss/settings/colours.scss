@@ -12,6 +12,7 @@ $colour-background-secondary: #000000;
 
 $colour-background--transparent: transparentize($colour-background, 0.8);
 $colour-background--dark: rgba(132, 132, 132, 0.2);
+$colour-background--darker: transparentize(#1F1F1F, 0.1);
 $colour-background-secondary--transparent: transparentize(
   $colour-background-secondary,
   0.8
